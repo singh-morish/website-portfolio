@@ -30,7 +30,7 @@ const Contact = () => {
             <BiLogoGmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>morish.dtg@gmail.com</h5>
-            <a href="mailto:morish.dtg@gmail.com" target="_blank">
+            <a href="mailto:morish.dtg@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -38,7 +38,7 @@ const Contact = () => {
             <BsMessenger className="contact__option-icon"/>
             <h4>Messenger</h4>
             <h5>Morish Kumar</h5>
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -48,7 +48,7 @@ const Contact = () => {
             <h5>+919430782078</h5>
             <a
               href="https://api.whatsapp.com/send?phone=9430782078"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Send a message
             </a>
